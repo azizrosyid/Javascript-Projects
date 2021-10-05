@@ -8,7 +8,7 @@ const bubbleSort = (data, type = 'asc') => {
     for (let i = 0; i < data.length; i++) {
       if (type === 'asc') {
         if (data[i] > data[i+1]) {
-         x = data[i];
+         x = data[i];aeg
          data[i] = data[i+1];
          data[i+1] = x; 
         } 
